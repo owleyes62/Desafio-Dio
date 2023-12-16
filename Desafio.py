@@ -27,8 +27,9 @@ def ClassificadroDeNivel(xp):
 
 
 for heroi in heroisXp:
-    NivelDoHeroi = ClassificadroDeNivel(heroi[1]) 
     nome = heroi[0]
+    xp = heroi[1]
+    NivelDoHeroi = ClassificadroDeNivel(xp)
 
-    print(f"O nivel do heroi {nome} é {NivelDoHeroi}")
+    print(f"O nivel do heroi {nome} é {xp}")
 
